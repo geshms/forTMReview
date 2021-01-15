@@ -35,7 +35,7 @@ public class AppSpecificKeywords extends GenericKeywords {
 
 			// Click search button
 			base.keyword.click("searchButton");
-			base.keyword.sleep(5);
+			base.keyword.sleep(Integer.parseInt( base.property.getProperty("waitTime")));
 
 		} catch (Exception e) {
 			base.log.info(e.getMessage());
@@ -49,7 +49,7 @@ public class AppSpecificKeywords extends GenericKeywords {
 
 			// Click add to basket button in the first product link
 			base.keyword.click("firstProductaddToBasketButton");
-			base.keyword.sleep(5);
+			base.keyword.sleep(Integer.parseInt( base.property.getProperty("waitTime")));
 
 		} catch (Exception e) {
 			base.log.info(e.getMessage());
@@ -62,7 +62,7 @@ public class AppSpecificKeywords extends GenericKeywords {
 			// Open product basket to validate the result
 			base.log.info("Click on Product Basket");
 			base.keyword.click("productBasketLink");
-			base.keyword.sleep(5);
+			base.keyword.sleep(Integer.parseInt( base.property.getProperty("waitTime")));
 
 		} catch (Exception e) {
 			base.log.info(e.getMessage());

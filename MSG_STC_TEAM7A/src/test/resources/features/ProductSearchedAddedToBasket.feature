@@ -10,8 +10,8 @@ Feature: Product searched and added to the Basket
     When I search a "<valid_product>"
     And I add first product to the basket
     And I view the basket
-    Then My basket page should show "<Expected>"
+    Then My basket page should show "<valid_product>"
 
     Examples: 
-      | valid_product | Expected |
-      | Motor         | Motor    |
+      | valid_product |
+      | Motor         |

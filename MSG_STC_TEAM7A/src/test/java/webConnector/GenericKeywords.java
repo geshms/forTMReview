@@ -119,8 +119,10 @@ public class GenericKeywords extends BaseUtil {
 	// Verify partial text
 	public boolean verifyPartialText(String object, String data) {
 		base.log.info("Verifying partial text - " + object);
-		String expected = data.trim();
-		String actual = getElement(object).getText().trim();
+		//changed to consistent case - lower case
+		String expected = data.trim().toLowerCase();
+		//changed to consistent case - lower case
+		String actual = getElement(object).getText().trim().toLowerCase();
 
 		if (actual.contains(expected)) {
 			return true;

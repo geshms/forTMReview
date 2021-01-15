@@ -2631,3 +2631,817 @@ Session ID: 89959597256511678328a0483cd69a66
 2021-01-08 18:36:47,037 INFO  [Log] **************************************************************************************** 
 2021-01-08 18:36:47,037 INFO  [Log] **                    END SCENARIO EXECUTION Verify that a product searched and added to the basket is available in the basket              ** 
 2021-01-08 18:36:47,037 INFO  [Log] **************************************************************************************** 
+2021-01-15 13:00:59,249 INFO  [Log] **************************************************************************************** 
+2021-01-15 13:00:59,249 INFO  [Log] **                    START SCENARIO EXECUTION Verify that a product searched and added to the basket is available in the basket** 
+2021-01-15 13:00:59,250 INFO  [Log] **************************************************************************************** 
+2021-01-15 13:00:59,250 INFO  [Log] initialising properties.. 
+2021-01-15 13:00:59,250 INFO  [Log] Properties initialised! 
+2021-01-15 13:00:59,254 INFO  [Log] opening browser.. 
+2021-01-15 13:00:59,254 INFO  [Log] Chrome.. 
+2021-01-15 13:01:21,047 INFO  [Log] Navigating to..https://uk.rs-online.com/web/ 
+2021-01-15 13:01:26,149 INFO  [Log] Clicking object - banner 
+2021-01-15 13:01:31,683 INFO  [Log] Get to RS-uk Page & confirm sign in link is located.. 
+2021-01-15 13:01:31,683 INFO  [Log] Checking Element Exists - RS-uk_logo_link 
+2021-01-15 13:01:31,784 INFO  [Log] User is on the RS-uk webpage 
+2021-01-15 13:01:31,785 INFO  [Log] Check if the Search box is loaded 
+2021-01-15 13:01:31,785 INFO  [Log] Waiting Until Element Is Visible - //*[@id="searchTerm"] 
+2021-01-15 13:01:31,937 INFO  [Log] Enter Product in Search box and click Search 
+2021-01-15 13:01:31,937 INFO  [Log] Entering data - Motor into + searchTextBox 
+2021-01-15 13:01:33,886 INFO  [Log] Clicking object - searchButton 
+2021-01-15 13:01:43,586 INFO  [Log] Waiting until page loads completely.. 
+2021-01-15 13:01:44,631 INFO  [Log] Checking Element Exists - firstProductaddToBasketButton 
+2021-01-15 13:01:44,657 INFO  [Log] Adding the first Product from search results to the product basket 
+2021-01-15 13:01:44,657 INFO  [Log] Clicking object - firstProductaddToBasketButton 
+2021-01-15 13:01:49,891 INFO  [Log] Waiting until page loads completely.. 
+2021-01-15 13:01:50,912 INFO  [Log] Window Scroll up so that view the basket link is visible 
+2021-01-15 13:01:50,969 INFO  [Log] Waiting Until Element Is Visible - //*[@title="1 item(s) in basket"] 
+2021-01-15 13:01:51,162 INFO  [Log] Click on Product Basket 
+2021-01-15 13:01:51,163 INFO  [Log] Clicking object - productBasketLink 
+2021-01-15 13:01:58,740 INFO  [Log] Waiting until page loads completely.. 
+2021-01-15 13:01:59,775 INFO  [Log] Checking Element Exists - Mybasketitemdescription 
+2021-01-15 13:01:59,793 INFO  [Log] Verifying partial text - Mybasketitemdescription 
+2021-01-15 13:02:00,122 INFO  [Log] Closing browser after running the Scenario.. 
+2021-01-15 13:02:00,122 INFO  [Log] **************************************************************************************** 
+2021-01-15 13:02:00,122 INFO  [Log] **                    END SCENARIO EXECUTION Verify that a product searched and added to the basket is available in the basket              ** 
+2021-01-15 13:02:00,122 INFO  [Log] **************************************************************************************** 
+2021-01-15 13:10:15,085 INFO  [Log] **************************************************************************************** 
+2021-01-15 13:10:15,087 INFO  [Log] **                    START SCENARIO EXECUTION Verify that a product searched and added to the basket is available in the basket** 
+2021-01-15 13:10:15,087 INFO  [Log] **************************************************************************************** 
+2021-01-15 13:10:15,087 INFO  [Log] initialising properties.. 
+2021-01-15 13:10:15,087 INFO  [Log] Properties initialised! 
+2021-01-15 13:10:15,092 INFO  [Log] opening browser.. 
+2021-01-15 13:10:15,093 INFO  [Log] Chrome.. 
+2021-01-15 13:10:22,533 INFO  [Log] Navigating to..https://uk.rs-online.com/web/ 
+2021-01-15 13:10:28,460 INFO  [Log] Clicking object - banner 
+2021-01-15 13:10:32,393 INFO  [Log] Get to RS-uk Page & confirm sign in link is located.. 
+2021-01-15 13:10:32,393 INFO  [Log] Checking Element Exists - RS-uk_logo_link 
+2021-01-15 13:10:32,444 INFO  [Log] User is on the RS-uk webpage 
+2021-01-15 13:10:32,445 INFO  [Log] Check if the Search box is loaded 
+2021-01-15 13:10:32,445 INFO  [Log] Waiting Until Element Is Visible - //*[@id='searchTerm'] 
+2021-01-15 13:10:32,977 INFO  [Log] Enter Product in Search box and click Search 
+2021-01-15 13:10:32,977 INFO  [Log] Entering data - Motor into + searchTextBox 
+2021-01-15 13:10:34,297 INFO  [Log] Clicking object - searchButton 
+2021-01-15 13:10:39,584 INFO  [Log] Waiting until page loads completely.. 
+2021-01-15 13:10:40,639 INFO  [Log] Checking Element Exists - firstProductaddToBasketButton 
+2021-01-15 13:10:40,660 INFO  [Log] Adding the first Product from search results to the product basket 
+2021-01-15 13:10:40,660 INFO  [Log] Clicking object - firstProductaddToBasketButton 
+2021-01-15 13:10:45,909 INFO  [Log] Waiting until page loads completely.. 
+2021-01-15 13:10:46,927 INFO  [Log] Window Scroll up so that view the basket link is visible 
+2021-01-15 13:10:46,964 INFO  [Log] Waiting Until Element Is Visible - //*[@title='1 item(s) in basket'] 
+2021-01-15 13:10:47,158 INFO  [Log] Click on Product Basket 
+2021-01-15 13:10:47,159 INFO  [Log] Clicking object - productBasketLink 
+2021-01-15 13:10:54,167 INFO  [Log] Waiting until page loads completely.. 
+2021-01-15 13:10:55,219 INFO  [Log] Checking Element Exists - Mybasketitemdescription 
+2021-01-15 13:10:55,239 INFO  [Log] Verifying partial text - Mybasketitemdescription 
+2021-01-15 13:10:55,316 INFO  [Log] Closing browser after running the Scenario.. 
+2021-01-15 13:10:55,316 INFO  [Log] **************************************************************************************** 
+2021-01-15 13:10:55,316 INFO  [Log] **                    END SCENARIO EXECUTION Verify that a product searched and added to the basket is available in the basket              ** 
+2021-01-15 13:10:55,317 INFO  [Log] **************************************************************************************** 
+2021-01-15 14:59:43,720 INFO  [Log] **************************************************************************************** 
+2021-01-15 14:59:43,720 INFO  [Log] **                    START SCENARIO EXECUTION Verify that a product searched and added to the basket is available in the basket** 
+2021-01-15 14:59:43,721 INFO  [Log] **************************************************************************************** 
+2021-01-15 14:59:43,721 INFO  [Log] initialising properties.. 
+2021-01-15 14:59:43,721 INFO  [Log] Properties initialised! 
+2021-01-15 14:59:43,724 INFO  [Log] opening browser.. 
+2021-01-15 14:59:43,725 INFO  [Log] Chrome.. 
+2021-01-15 14:59:51,412 INFO  [Log] Navigating to..https://uk.rs-online.com/web/ 
+2021-01-15 14:59:53,199 INFO  [Log] Clicking object - banner 
+2021-01-15 14:59:55,393 INFO  [Log] Get to RS-uk Page & confirm sign in link is located.. 
+2021-01-15 14:59:55,393 INFO  [Log] Checking Element Exists - RS-uk_logo_link 
+2021-01-15 14:59:55,432 INFO  [Log] User is on the RS-uk webpage 
+2021-01-15 14:59:55,432 INFO  [Log] Check if the Search box is loaded 
+2021-01-15 14:59:55,432 INFO  [Log] Waiting Until Element Is Visible - //*[@id='searchTerm'] 
+2021-01-15 14:59:56,936 INFO  [Log] Enter Product in Search box and click Search 
+2021-01-15 14:59:56,936 INFO  [Log] Entering data - <valid_product> into + searchTextBox 
+2021-01-15 14:59:57,505 INFO  [Log] Clicking object - searchButton 
+2021-01-15 15:00:05,437 INFO  [Log] Waiting until page loads completely.. 
+2021-01-15 15:00:06,475 INFO  [Log] Checking Element Exists - firstProductaddToBasketButton 
+2021-01-15 15:00:16,518 ERROR [Log] AssertionError - Element does not exist in the page 
+2021-01-15 15:00:16,520 INFO  [Log] Closing browser after running the Scenario.. 
+2021-01-15 15:00:16,520 INFO  [Log] **************************************************************************************** 
+2021-01-15 15:00:16,520 INFO  [Log] **                    END SCENARIO EXECUTION Verify that a product searched and added to the basket is available in the basket              ** 
+2021-01-15 15:00:16,520 INFO  [Log] **************************************************************************************** 
+2021-01-15 15:06:39,738 INFO  [Log] **************************************************************************************** 
+2021-01-15 15:06:39,739 INFO  [Log] **                    START SCENARIO EXECUTION Verify that a product searched and added to the basket is available in the basket** 
+2021-01-15 15:06:39,739 INFO  [Log] **************************************************************************************** 
+2021-01-15 15:06:39,739 INFO  [Log] initialising properties.. 
+2021-01-15 15:06:39,739 INFO  [Log] Properties initialised! 
+2021-01-15 15:06:39,743 INFO  [Log] opening browser.. 
+2021-01-15 15:06:39,744 INFO  [Log] Chrome.. 
+2021-01-15 15:06:47,059 INFO  [Log] Navigating to..https://uk.rs-online.com/web/ 
+2021-01-15 15:06:49,643 INFO  [Log] Clicking object - banner 
+2021-01-15 15:06:54,474 INFO  [Log] Get to RS-uk Page & confirm sign in link is located.. 
+2021-01-15 15:06:54,474 INFO  [Log] Checking Element Exists - RS-uk_logo_link 
+2021-01-15 15:06:54,517 INFO  [Log] User is on the RS-uk webpage 
+2021-01-15 15:06:54,517 INFO  [Log] Check if the Search box is loaded 
+2021-01-15 15:06:54,517 INFO  [Log] Waiting Until Element Is Visible - //*[@id='searchTerm'] 
+2021-01-15 15:06:54,648 INFO  [Log] Enter Product in Search box and click Search 
+2021-01-15 15:06:54,648 INFO  [Log] Entering data - Motor into + searchTextBox 
+2021-01-15 15:06:54,944 INFO  [Log] Clicking object - searchButton 
+2021-01-15 15:07:00,743 INFO  [Log] Waiting until page loads completely.. 
+2021-01-15 15:07:01,841 INFO  [Log] Checking Element Exists - firstProductaddToBasketButton 
+2021-01-15 15:07:01,871 INFO  [Log] Adding the first Product from search results to the product basket 
+2021-01-15 15:07:01,871 INFO  [Log] Clicking object - firstProductaddToBasketButton 
+2021-01-15 15:07:07,525 INFO  [Log] Waiting until page loads completely.. 
+2021-01-15 15:07:08,549 INFO  [Log] Window Scroll up so that view the basket link is visible 
+2021-01-15 15:07:08,581 INFO  [Log] Waiting Until Element Is Visible - //*[@title='1 item(s) in basket'] 
+2021-01-15 15:07:08,752 INFO  [Log] Click on Product Basket 
+2021-01-15 15:07:08,752 INFO  [Log] Clicking object - productBasketLink 
+2021-01-15 15:07:16,018 INFO  [Log] Waiting until page loads completely.. 
+2021-01-15 15:07:17,064 INFO  [Log] Checking Element Exists - Mybasketitemdescription 
+2021-01-15 15:07:17,095 INFO  [Log] Verifying partial text - Mybasketitemdescription 
+2021-01-15 15:07:17,214 INFO  [Log] Closing browser after running the Scenario.. 
+2021-01-15 15:07:17,214 INFO  [Log] **************************************************************************************** 
+2021-01-15 15:07:17,214 INFO  [Log] **                    END SCENARIO EXECUTION Verify that a product searched and added to the basket is available in the basket              ** 
+2021-01-15 15:07:17,214 INFO  [Log] **************************************************************************************** 
+2021-01-15 15:21:30,641 INFO  [Log] **************************************************************************************** 
+2021-01-15 15:21:30,641 INFO  [Log] **                    START SCENARIO EXECUTION Verify that a product searched and added to the basket is available in the basket** 
+2021-01-15 15:21:30,641 INFO  [Log] **************************************************************************************** 
+2021-01-15 15:21:30,641 INFO  [Log] initialising properties.. 
+2021-01-15 15:21:30,641 INFO  [Log] Properties initialised! 
+2021-01-15 15:21:30,641 INFO  [Log] opening browser.. 
+2021-01-15 15:21:30,657 INFO  [Log] Chrome.. 
+2021-01-15 15:21:37,894 INFO  [Log] Navigating to..https://uk.rs-online.com/web/ 
+2021-01-15 15:21:39,464 INFO  [Log] Clicking object - banner 
+2021-01-15 15:21:41,625 INFO  [Log] Get to RS-uk Page & confirm sign in link is located.. 
+2021-01-15 15:21:41,625 INFO  [Log] Checking Element Exists - RS-uk_logo_link 
+2021-01-15 15:21:42,339 INFO  [Log] User is on the RS-uk webpage 
+2021-01-15 15:21:42,340 INFO  [Log] Check if the Search box is loaded 
+2021-01-15 15:21:42,340 INFO  [Log] Waiting Until Element Is Visible - //*[@id='searchTerm'] 
+2021-01-15 15:21:43,848 INFO  [Log] Enter Product in Search box and click Search 
+2021-01-15 15:21:43,848 INFO  [Log] Entering data - Motor into + searchTextBox 
+2021-01-15 15:21:44,063 INFO  [Log] Clicking object - searchButton 
+2021-01-15 15:21:51,515 INFO  [Log] Waiting until page loads completely.. 
+2021-01-15 15:21:52,593 INFO  [Log] Checking Element Exists - firstProductaddToBasketButton 
+2021-01-15 15:21:52,625 INFO  [Log] Adding the first Product from search results to the product basket 
+2021-01-15 15:21:52,625 INFO  [Log] Clicking object - firstProductaddToBasketButton 
+2021-01-15 15:21:57,986 INFO  [Log] Waiting until page loads completely.. 
+2021-01-15 15:21:59,008 INFO  [Log] Window Scroll up so that view the basket link is visible 
+2021-01-15 15:21:59,079 INFO  [Log] Waiting Until Element Is Visible - //*[@title='1 item(s) in basket'] 
+2021-01-15 15:21:59,241 INFO  [Log] Click on Product Basket 
+2021-01-15 15:21:59,242 INFO  [Log] Clicking object - productBasketLink 
+2021-01-15 15:22:06,454 INFO  [Log] Waiting until page loads completely.. 
+2021-01-15 15:22:07,523 INFO  [Log] Checking Element Exists - Mybasketitemdescription 
+2021-01-15 15:22:07,554 INFO  [Log] Verifying partial text - Mybasketitemdescription 
+2021-01-15 15:22:07,663 ERROR [Log] AssertionError - My basket  does not exist in the page 
+2021-01-15 15:22:07,679 INFO  [Log] Closing browser after running the Scenario.. 
+2021-01-15 15:22:07,679 INFO  [Log] **************************************************************************************** 
+2021-01-15 15:22:07,679 INFO  [Log] **                    END SCENARIO EXECUTION Verify that a product searched and added to the basket is available in the basket              ** 
+2021-01-15 15:22:07,679 INFO  [Log] **************************************************************************************** 
+2021-01-15 15:25:40,717 INFO  [Log] **************************************************************************************** 
+2021-01-15 15:25:40,717 INFO  [Log] **                    START SCENARIO EXECUTION Verify that a product searched and added to the basket is available in the basket** 
+2021-01-15 15:25:40,717 INFO  [Log] **************************************************************************************** 
+2021-01-15 15:25:40,717 INFO  [Log] initialising properties.. 
+2021-01-15 15:25:40,717 INFO  [Log] Properties initialised! 
+2021-01-15 15:25:40,733 INFO  [Log] opening browser.. 
+2021-01-15 15:25:40,733 INFO  [Log] Chrome.. 
+2021-01-15 15:25:48,136 INFO  [Log] Navigating to..https://uk.rs-online.com/web/ 
+2021-01-15 15:25:50,784 INFO  [Log] Clicking object - banner 
+2021-01-15 15:25:52,412 INFO  [Log] Get to RS-uk Page & confirm sign in link is located.. 
+2021-01-15 15:25:52,412 INFO  [Log] Checking Element Exists - RS-uk_logo_link 
+2021-01-15 15:25:52,458 INFO  [Log] User is on the RS-uk webpage 
+2021-01-15 15:25:52,458 INFO  [Log] Check if the Search box is loaded 
+2021-01-15 15:25:52,459 INFO  [Log] Waiting Until Element Is Visible - //*[@id='searchTerm'] 
+2021-01-15 15:25:54,195 INFO  [Log] Enter Product in Search box and click Search 
+2021-01-15 15:25:54,195 INFO  [Log] Entering data - Motor into + searchTextBox 
+2021-01-15 15:25:54,990 INFO  [Log] Clicking object - searchButton 
+2021-01-15 15:26:03,553 INFO  [Log] Waiting until page loads completely.. 
+2021-01-15 15:26:04,646 INFO  [Log] Checking Element Exists - firstProductaddToBasketButton 
+2021-01-15 15:26:04,678 INFO  [Log] Adding the first Product from search results to the product basket 
+2021-01-15 15:26:04,678 INFO  [Log] Clicking object - firstProductaddToBasketButton 
+2021-01-15 15:26:09,973 INFO  [Log] Waiting until page loads completely.. 
+2021-01-15 15:26:11,015 INFO  [Log] Window Scroll up so that view the basket link is visible 
+2021-01-15 15:26:11,083 INFO  [Log] Waiting Until Element Is Visible - //*[@title='1 item(s) in basket'] 
+2021-01-15 15:26:11,233 INFO  [Log] Click on Product Basket 
+2021-01-15 15:26:11,233 INFO  [Log] Clicking object - productBasketLink 
+2021-01-15 15:26:18,056 INFO  [Log] Waiting until page loads completely.. 
+2021-01-15 15:26:19,121 INFO  [Log] Checking Element Exists - Mybasketitemdescription 
+2021-01-15 15:26:19,152 INFO  [Log] Verifying partial text - Mybasketitemdescription 
+2021-01-15 15:26:19,274 ERROR [Log] AssertionError - My basket  does not exist in the page 
+2021-01-15 15:26:19,274 INFO  [Log] Closing browser after running the Scenario.. 
+2021-01-15 15:26:19,274 INFO  [Log] **************************************************************************************** 
+2021-01-15 15:26:19,274 INFO  [Log] **                    END SCENARIO EXECUTION Verify that a product searched and added to the basket is available in the basket              ** 
+2021-01-15 15:26:19,274 INFO  [Log] **************************************************************************************** 
+2021-01-15 15:28:52,608 INFO  [Log] **************************************************************************************** 
+2021-01-15 15:28:52,609 INFO  [Log] **                    START SCENARIO EXECUTION Verify that a product searched and added to the basket is available in the basket** 
+2021-01-15 15:28:52,609 INFO  [Log] **************************************************************************************** 
+2021-01-15 15:28:52,609 INFO  [Log] initialising properties.. 
+2021-01-15 15:28:52,609 INFO  [Log] Properties initialised! 
+2021-01-15 15:28:52,614 INFO  [Log] opening browser.. 
+2021-01-15 15:28:52,614 INFO  [Log] Chrome.. 
+2021-01-15 15:28:59,984 INFO  [Log] Navigating to..https://uk.rs-online.com/web/ 
+2021-01-15 15:29:02,560 INFO  [Log] Clicking object - banner 
+2021-01-15 15:29:05,095 INFO  [Log] Get to RS-uk Page & confirm sign in link is located.. 
+2021-01-15 15:29:05,095 INFO  [Log] Checking Element Exists - RS-uk_logo_link 
+2021-01-15 15:29:05,173 INFO  [Log] User is on the RS-uk webpage 
+2021-01-15 15:29:05,174 INFO  [Log] Check if the Search box is loaded 
+2021-01-15 15:29:05,175 INFO  [Log] Waiting Until Element Is Visible - //*[@id='searchTerm'] 
+2021-01-15 15:29:06,202 INFO  [Log] Enter Product in Search box and click Search 
+2021-01-15 15:29:06,203 INFO  [Log] Entering data - MOTOR into + searchTextBox 
+2021-01-15 15:29:06,478 INFO  [Log] Clicking object - searchButton 
+2021-01-15 15:29:14,373 INFO  [Log] Waiting until page loads completely.. 
+2021-01-15 15:29:15,418 INFO  [Log] Checking Element Exists - firstProductaddToBasketButton 
+2021-01-15 15:29:15,438 INFO  [Log] Adding the first Product from search results to the product basket 
+2021-01-15 15:29:15,438 INFO  [Log] Clicking object - firstProductaddToBasketButton 
+2021-01-15 15:29:20,699 INFO  [Log] Waiting until page loads completely.. 
+2021-01-15 15:29:21,719 INFO  [Log] Window Scroll up so that view the basket link is visible 
+2021-01-15 15:29:21,773 INFO  [Log] Waiting Until Element Is Visible - //*[@title='1 item(s) in basket'] 
+2021-01-15 15:29:21,928 INFO  [Log] Click on Product Basket 
+2021-01-15 15:29:21,928 INFO  [Log] Clicking object - productBasketLink 
+2021-01-15 15:29:29,245 INFO  [Log] Waiting until page loads completely.. 
+2021-01-15 15:29:30,317 INFO  [Log] Checking Element Exists - Mybasketitemdescription 
+2021-01-15 15:29:30,337 INFO  [Log] Verifying partial text - Mybasketitemdescription 
+2021-01-15 15:29:30,414 INFO  [Log] Closing browser after running the Scenario.. 
+2021-01-15 15:29:30,414 INFO  [Log] **************************************************************************************** 
+2021-01-15 15:29:30,414 INFO  [Log] **                    END SCENARIO EXECUTION Verify that a product searched and added to the basket is available in the basket              ** 
+2021-01-15 15:29:30,414 INFO  [Log] **************************************************************************************** 
+2021-01-15 15:43:55,048 INFO  [Log] **************************************************************************************** 
+2021-01-15 15:43:55,048 INFO  [Log] **                    START SCENARIO EXECUTION Verify that a product searched and added to the basket is available in the basket** 
+2021-01-15 15:43:55,048 INFO  [Log] **************************************************************************************** 
+2021-01-15 15:43:55,048 INFO  [Log] initialising properties.. 
+2021-01-15 15:43:55,048 INFO  [Log] Properties initialised! 
+2021-01-15 15:43:55,048 INFO  [Log] opening browser.. 
+2021-01-15 15:43:55,048 INFO  [Log] Chrome.. 
+2021-01-15 15:44:02,636 INFO  [Log] Navigating to..https://uk.rs-online.com/web/ 
+2021-01-15 15:44:05,469 INFO  [Log] Clicking object - banner 
+2021-01-15 15:44:09,016 INFO  [Log] Get to RS-uk Page & confirm sign in link is located.. 
+2021-01-15 15:44:09,016 INFO  [Log] Checking Element Exists - RS-uk_logo_link 
+2021-01-15 15:44:09,098 INFO  [Log] User is on the RS-uk webpage 
+2021-01-15 15:44:09,098 INFO  [Log] Check if the Search box is loaded 
+2021-01-15 15:44:09,098 INFO  [Log] Waiting Until Element Is Visible - //*[@id='searchTerm'] 
+2021-01-15 15:44:09,391 INFO  [Log] Enter Product in Search box and click Search 
+2021-01-15 15:44:09,391 INFO  [Log] Entering data - MOTOR into + searchTextBox 
+2021-01-15 15:44:10,073 INFO  [Log] Clicking object - searchButton 
+2021-01-15 15:44:15,528 INFO  [Log] Waiting until page loads completely.. 
+2021-01-15 15:44:16,572 INFO  [Log] Checking Element Exists - firstProductaddToBasketButton 
+2021-01-15 15:44:16,600 INFO  [Log] Adding the first Product from search results to the product basket 
+2021-01-15 15:44:16,600 INFO  [Log] Clicking object - firstProductaddToBasketButton 
+2021-01-15 15:44:21,928 INFO  [Log] Waiting until page loads completely.. 
+2021-01-15 15:44:22,949 INFO  [Log] Window Scroll up so that view the basket link is visible 
+2021-01-15 15:44:22,990 INFO  [Log] Waiting Until Element Is Visible - //*[@class='icon-cart'] 
+2021-01-15 15:44:23,204 INFO  [Log] Click on Product Basket 
+2021-01-15 15:44:23,204 INFO  [Log] Clicking object - productBasketLink 
+2021-01-15 15:44:30,346 INFO  [Log] Waiting until page loads completely.. 
+2021-01-15 15:44:31,437 INFO  [Log] Checking Element Exists - Mybasketitemdescription 
+2021-01-15 15:44:31,469 INFO  [Log] Verifying partial text - Mybasketitemdescription 
+2021-01-15 15:44:31,605 INFO  [Log] Closing browser after running the Scenario.. 
+2021-01-15 15:44:31,605 INFO  [Log] **************************************************************************************** 
+2021-01-15 15:44:31,605 INFO  [Log] **                    END SCENARIO EXECUTION Verify that a product searched and added to the basket is available in the basket              ** 
+2021-01-15 15:44:31,605 INFO  [Log] **************************************************************************************** 
+2021-01-15 16:17:18,320 INFO  [Log] **************************************************************************************** 
+2021-01-15 16:17:18,320 INFO  [Log] **                    START SCENARIO EXECUTION Verify that a product searched and added to the basket is available in the basket** 
+2021-01-15 16:17:18,320 INFO  [Log] **************************************************************************************** 
+2021-01-15 16:17:18,320 INFO  [Log] initialising properties.. 
+2021-01-15 16:17:18,320 INFO  [Log] Properties initialised! 
+2021-01-15 16:17:18,320 INFO  [Log] opening browser.. 
+2021-01-15 16:17:18,320 INFO  [Log] Chrome.. 
+2021-01-15 16:17:25,717 INFO  [Log] Navigating to..https://uk.rs-online.com/web/ 
+2021-01-15 16:17:28,510 INFO  [Log] Clicking object - banner 
+2021-01-15 16:17:33,298 INFO  [Log] Get to RS-uk Page & confirm sign in link is located.. 
+2021-01-15 16:17:33,298 INFO  [Log] Checking Element Exists - RS-uk_logo_link 
+2021-01-15 16:17:33,469 INFO  [Log] User is on the RS-uk webpage 
+2021-01-15 16:17:33,470 INFO  [Log] Check if the Search box is loaded 
+2021-01-15 16:17:33,470 INFO  [Log] Waiting Until Element Is Visible - //*[@id='searchTerm'] 
+2021-01-15 16:17:33,629 INFO  [Log] Enter Product in Search box and click Search 
+2021-01-15 16:17:33,629 INFO  [Log] Entering data - MOTOR into + searchTextBox 
+2021-01-15 16:17:33,963 INFO  [Log] Clicking object - searchButton 
+2021-01-15 16:17:42,317 INFO  [Log] Waiting until page loads completely.. 
+2021-01-15 16:17:43,393 INFO  [Log] Checking Element Exists - firstProductaddToBasketButton 
+2021-01-15 16:17:43,412 INFO  [Log] Adding the first Product from search results to the product basket 
+2021-01-15 16:17:43,412 INFO  [Log] Clicking object - firstProductaddToBasketButton 
+2021-01-15 16:17:48,633 INFO  [Log] Waiting until page loads completely.. 
+2021-01-15 16:17:49,653 INFO  [Log] Window Scroll up so that view the basket link is visible 
+2021-01-15 16:17:49,726 INFO  [Log] Waiting Until Element Is Visible - //*[@class='icon-cart'] 
+2021-01-15 16:17:49,896 INFO  [Log] Click on Product Basket 
+2021-01-15 16:17:49,896 INFO  [Log] Clicking object - productBasketLink 
+2021-01-15 16:17:56,793 INFO  [Log] Waiting until page loads completely.. 
+2021-01-15 16:17:57,845 INFO  [Log] Checking Element Exists - Mybasketitemdescription 
+2021-01-15 16:17:57,869 INFO  [Log] Verifying partial text - Mybasketitemdescription 
+2021-01-15 16:17:57,971 INFO  [Log] Closing browser after running the Scenario.. 
+2021-01-15 16:17:57,971 INFO  [Log] **************************************************************************************** 
+2021-01-15 16:17:57,971 INFO  [Log] **                    END SCENARIO EXECUTION Verify that a product searched and added to the basket is available in the basket              ** 
+2021-01-15 16:17:57,971 INFO  [Log] **************************************************************************************** 
+2021-01-15 16:42:11,545 INFO  [Log] **************************************************************************************** 
+2021-01-15 16:42:11,545 INFO  [Log] **                    START SCENARIO EXECUTION Verify that a product searched and added to the basket is available in the basket** 
+2021-01-15 16:42:11,545 INFO  [Log] **************************************************************************************** 
+2021-01-15 16:42:11,545 INFO  [Log] initialising properties.. 
+2021-01-15 16:42:11,545 INFO  [Log] Properties initialised! 
+2021-01-15 16:42:11,560 INFO  [Log] opening browser.. 
+2021-01-15 16:42:11,560 INFO  [Log] Chrome.. 
+2021-01-15 16:42:19,892 INFO  [Log] Navigating to..https://uk.rs-online.com/web/ 
+2021-01-15 16:42:22,033 INFO  [Log] Clicking object - banner 
+2021-01-15 16:42:25,123 INFO  [Log] Get to RS-uk Page & confirm sign in link is located.. 
+2021-01-15 16:42:25,123 INFO  [Log] Checking Element Exists - RS-uk_logo_link 
+2021-01-15 16:42:25,175 INFO  [Log] User is on the RS-uk webpage 
+2021-01-15 16:42:25,176 INFO  [Log] Check if the Search box is loaded 
+2021-01-15 16:42:25,176 INFO  [Log] Waiting Until Element Is Visible - //*[@id='searchTerm'] 
+2021-01-15 16:42:26,240 INFO  [Log] Enter Product in Search box and click Search 
+2021-01-15 16:42:26,240 INFO  [Log] Entering data - MOTOR into + searchTextBox 
+2021-01-15 16:42:27,163 INFO  [Log] Clicking object - searchButton 
+2021-01-15 16:42:32,929 INFO  [Log] Waiting until page loads completely.. 
+2021-01-15 16:42:34,013 INFO  [Log] Checking Element Exists - firstProductaddToBasketButton 
+2021-01-15 16:42:34,030 INFO  [Log] Adding the first Product from search results to the product basket 
+2021-01-15 16:42:34,030 INFO  [Log] Clicking object - firstProductaddToBasketButton 
+2021-01-15 16:42:39,333 INFO  [Log] Waiting until page loads completely.. 
+2021-01-15 16:42:40,345 INFO  [Log] Window Scroll up so that view the basket link is visible 
+2021-01-15 16:42:40,375 INFO  [Log] Waiting Until Element Is Visible - //*[@class='icon-cart'] 
+2021-01-15 16:42:40,577 INFO  [Log] Click on Product Basket 
+2021-01-15 16:42:40,577 INFO  [Log] Clicking object - productBasketLink 
+2021-01-15 16:42:47,570 INFO  [Log] Waiting until page loads completely.. 
+2021-01-15 16:42:48,621 INFO  [Log] Checking Element Exists - Mybasketitemdescription 
+2021-01-15 16:42:48,640 INFO  [Log] Verifying partial text - Mybasketitemdescription 
+2021-01-15 16:42:48,718 INFO  [Log] Closing browser after running the Scenario.. 
+2021-01-15 16:42:48,718 INFO  [Log] **************************************************************************************** 
+2021-01-15 16:42:48,718 INFO  [Log] **                    END SCENARIO EXECUTION Verify that a product searched and added to the basket is available in the basket              ** 
+2021-01-15 16:42:48,718 INFO  [Log] **************************************************************************************** 
+2021-01-15 17:46:50,758 INFO  [Log] **************************************************************************************** 
+2021-01-15 17:46:50,759 INFO  [Log] **                    START SCENARIO EXECUTION Verify that a product searched and added to the basket is available in the basket** 
+2021-01-15 17:46:50,759 INFO  [Log] **************************************************************************************** 
+2021-01-15 17:46:50,759 INFO  [Log] initialising properties.. 
+2021-01-15 17:46:50,759 INFO  [Log] Properties initialised! 
+2021-01-15 17:46:50,764 INFO  [Log] opening browser.. 
+2021-01-15 17:46:50,764 INFO  [Log] Chrome.. 
+2021-01-15 17:46:58,416 INFO  [Log] Navigating to..https://uk.rs-online.com/web/ 
+2021-01-15 17:47:00,537 INFO  [Log] Clicking object - banner 
+2021-01-15 17:47:03,205 INFO  [Log] Get to RS-uk Page & confirm sign in link is located.. 
+2021-01-15 17:47:03,205 INFO  [Log] Checking Element Exists - RS-uk_logo_link 
+2021-01-15 17:47:04,516 INFO  [Log] User is on the RS-uk webpage 
+2021-01-15 17:47:04,517 INFO  [Log] Check if the Search box is loaded 
+2021-01-15 17:47:04,517 INFO  [Log] Waiting Until Element Is Visible - //*[@id='searchTerm'] 
+2021-01-15 17:47:04,801 INFO  [Log] Enter Product in Search box and click Search 
+2021-01-15 17:47:04,801 INFO  [Log] Entering data - valid_product into + searchTextBox 
+2021-01-15 17:47:05,090 INFO  [Log] Clicking object - searchButton 
+2021-01-15 17:47:10,424 INFO  [Log] Waiting until page loads completely.. 
+2021-01-15 17:47:11,488 INFO  [Log] Checking Element Exists - firstProductaddToBasketButton 
+2021-01-15 17:47:21,522 ERROR [Log] AssertionError - Element does not exist in the page 
+2021-01-15 17:47:21,524 INFO  [Log] Closing browser after running the Scenario.. 
+2021-01-15 17:47:21,524 INFO  [Log] **************************************************************************************** 
+2021-01-15 17:47:21,524 INFO  [Log] **                    END SCENARIO EXECUTION Verify that a product searched and added to the basket is available in the basket              ** 
+2021-01-15 17:47:21,524 INFO  [Log] **************************************************************************************** 
+2021-01-15 17:50:27,604 INFO  [Log] **************************************************************************************** 
+2021-01-15 17:50:27,605 INFO  [Log] **                    START SCENARIO EXECUTION Verify that a product searched and added to the basket is available in the basket** 
+2021-01-15 17:50:27,605 INFO  [Log] **************************************************************************************** 
+2021-01-15 17:50:27,605 INFO  [Log] initialising properties.. 
+2021-01-15 17:50:27,605 INFO  [Log] Properties initialised! 
+2021-01-15 17:50:27,609 INFO  [Log] opening browser.. 
+2021-01-15 17:50:27,610 INFO  [Log] Chrome.. 
+2021-01-15 17:50:34,787 INFO  [Log] Navigating to..https://uk.rs-online.com/web/ 
+2021-01-15 17:50:37,141 INFO  [Log] Clicking object - banner 
+2021-01-15 17:50:42,310 INFO  [Log] Get to RS-uk Page & confirm sign in link is located.. 
+2021-01-15 17:50:42,311 INFO  [Log] Checking Element Exists - RS-uk_logo_link 
+2021-01-15 17:50:42,352 INFO  [Log] User is on the RS-uk webpage 
+2021-01-15 17:50:42,353 INFO  [Log] Check if the Search box is loaded 
+2021-01-15 17:50:42,353 INFO  [Log] Waiting Until Element Is Visible - //*[@id='searchTerm'] 
+2021-01-15 17:50:42,477 INFO  [Log] Enter Product in Search box and click Search 
+2021-01-15 17:50:42,477 INFO  [Log] Entering data - Solar Panel into + searchTextBox 
+2021-01-15 17:50:42,755 INFO  [Log] Clicking object - searchButton 
+2021-01-15 17:50:50,570 INFO  [Log] Waiting until page loads completely.. 
+2021-01-15 17:50:51,633 INFO  [Log] Checking Element Exists - firstProductaddToBasketButton 
+2021-01-15 17:50:51,660 INFO  [Log] Adding the first Product from search results to the product basket 
+2021-01-15 17:50:51,660 INFO  [Log] Clicking object - firstProductaddToBasketButton 
+2021-01-15 17:50:56,882 INFO  [Log] Waiting until page loads completely.. 
+2021-01-15 17:50:57,890 INFO  [Log] Window Scroll up so that view the basket link is visible 
+2021-01-15 17:50:57,915 INFO  [Log] Waiting Until Element Is Visible - //*[@class='icon-cart'] 
+2021-01-15 17:50:58,056 INFO  [Log] Click on Product Basket 
+2021-01-15 17:50:58,056 INFO  [Log] Clicking object - productBasketLink 
+2021-01-15 17:51:04,917 INFO  [Log] Waiting until page loads completely.. 
+2021-01-15 17:51:05,986 INFO  [Log] Checking Element Exists - Mybasketitemdescription 
+2021-01-15 17:51:06,006 INFO  [Log] Verifying partial text - Mybasketitemdescription 
+2021-01-15 17:51:06,084 ERROR [Log] AssertionError - My basket  does not exist in the page 
+2021-01-15 17:51:06,085 INFO  [Log] Closing browser after running the Scenario.. 
+2021-01-15 17:51:06,085 INFO  [Log] **************************************************************************************** 
+2021-01-15 17:51:06,085 INFO  [Log] **                    END SCENARIO EXECUTION Verify that a product searched and added to the basket is available in the basket              ** 
+2021-01-15 17:51:06,085 INFO  [Log] **************************************************************************************** 
+2021-01-15 17:58:43,759 INFO  [Log] **************************************************************************************** 
+2021-01-15 17:58:43,759 INFO  [Log] **                    START SCENARIO EXECUTION Verify that a product searched and added to the basket is available in the basket** 
+2021-01-15 17:58:43,759 INFO  [Log] **************************************************************************************** 
+2021-01-15 17:58:43,759 INFO  [Log] initialising properties.. 
+2021-01-15 17:58:43,759 INFO  [Log] Properties initialised! 
+2021-01-15 17:58:43,759 INFO  [Log] opening browser.. 
+2021-01-15 17:58:43,759 INFO  [Log] Chrome.. 
+2021-01-15 17:58:51,569 INFO  [Log] Navigating to..https://uk.rs-online.com/web/ 
+2021-01-15 17:58:56,531 INFO  [Log] Clicking object - banner 
+2021-01-15 17:58:58,365 INFO  [Log] Get to RS-uk Page & confirm sign in link is located.. 
+2021-01-15 17:58:58,365 INFO  [Log] Checking Element Exists - RS-uk_logo_link 
+2021-01-15 17:58:58,400 INFO  [Log] User is on the RS-uk webpage 
+2021-01-15 17:58:58,400 INFO  [Log] Check if the Search box is loaded 
+2021-01-15 17:58:58,400 INFO  [Log] Waiting Until Element Is Visible - //*[@id='searchTerm'] 
+2021-01-15 17:59:00,304 INFO  [Log] Enter Product in Search box and click Search 
+2021-01-15 17:59:00,304 INFO  [Log] Entering data - Solar Panel into + searchTextBox 
+2021-01-15 17:59:00,823 INFO  [Log] Clicking object - searchButton 
+2021-01-15 17:59:08,626 INFO  [Log] Waiting until page loads completely.. 
+2021-01-15 17:59:09,673 INFO  [Log] Checking Element Exists - firstProductaddToBasketButton 
+2021-01-15 17:59:09,704 INFO  [Log] Adding the first Product from search results to the product basket 
+2021-01-15 17:59:09,705 INFO  [Log] Clicking object - firstProductaddToBasketButton 
+2021-01-15 17:59:15,010 INFO  [Log] Waiting until page loads completely.. 
+2021-01-15 17:59:16,031 INFO  [Log] Window Scroll up so that view the basket link is visible 
+2021-01-15 17:59:16,071 INFO  [Log] Waiting Until Element Is Visible - //*[@class='icon-cart'] 
+2021-01-15 17:59:16,313 INFO  [Log] Click on Product Basket 
+2021-01-15 17:59:16,313 INFO  [Log] Clicking object - productBasketLink 
+2021-01-15 17:59:23,442 INFO  [Log] Waiting until page loads completely.. 
+2021-01-15 17:59:24,525 INFO  [Log] Checking Element Exists - Mybasketitemdescription 
+2021-01-15 17:59:24,543 INFO  [Log] Verifying partial text - Mybasketitemdescription 
+2021-01-15 17:59:24,607 ERROR [Log] AssertionError - My basket  does not contain the added item 
+2021-01-15 17:59:24,608 INFO  [Log] Closing browser after running the Scenario.. 
+2021-01-15 17:59:24,608 INFO  [Log] **************************************************************************************** 
+2021-01-15 17:59:24,608 INFO  [Log] **                    END SCENARIO EXECUTION Verify that a product searched and added to the basket is available in the basket              ** 
+2021-01-15 17:59:24,608 INFO  [Log] **************************************************************************************** 
+2021-01-15 18:00:57,336 INFO  [Log] **************************************************************************************** 
+2021-01-15 18:00:57,337 INFO  [Log] **                    START SCENARIO EXECUTION Verify that a product searched and added to the basket is available in the basket** 
+2021-01-15 18:00:57,337 INFO  [Log] **************************************************************************************** 
+2021-01-15 18:00:57,337 INFO  [Log] initialising properties.. 
+2021-01-15 18:00:57,337 INFO  [Log] Properties initialised! 
+2021-01-15 18:00:57,342 INFO  [Log] opening browser.. 
+2021-01-15 18:00:57,342 INFO  [Log] Chrome.. 
+2021-01-15 18:01:05,072 INFO  [Log] Navigating to..https://uk.rs-online.com/web/ 
+2021-01-15 18:01:06,964 INFO  [Log] Clicking object - banner 
+2021-01-15 18:01:12,270 INFO  [Log] Get to RS-uk Page & confirm sign in link is located.. 
+2021-01-15 18:01:12,270 INFO  [Log] Checking Element Exists - RS-uk_logo_link 
+2021-01-15 18:01:12,304 INFO  [Log] User is on the RS-uk webpage 
+2021-01-15 18:01:12,304 INFO  [Log] Check if the Search box is loaded 
+2021-01-15 18:01:12,304 INFO  [Log] Waiting Until Element Is Visible - //*[@id='searchTerm'] 
+2021-01-15 18:01:12,420 INFO  [Log] Enter Product in Search box and click Search 
+2021-01-15 18:01:12,420 INFO  [Log] Entering data - solar panel into + searchTextBox 
+2021-01-15 18:01:12,710 INFO  [Log] Clicking object - searchButton 
+2021-01-15 18:01:20,719 INFO  [Log] Waiting until page loads completely.. 
+2021-01-15 18:01:21,761 INFO  [Log] Checking Element Exists - firstProductaddToBasketButton 
+2021-01-15 18:01:21,780 INFO  [Log] Adding the first Product from search results to the product basket 
+2021-01-15 18:01:21,780 INFO  [Log] Clicking object - firstProductaddToBasketButton 
+2021-01-15 18:01:27,030 INFO  [Log] Waiting until page loads completely.. 
+2021-01-15 18:01:28,050 INFO  [Log] Window Scroll up so that view the basket link is visible 
+2021-01-15 18:01:28,095 INFO  [Log] Waiting Until Element Is Visible - //*[@class='icon-cart'] 
+2021-01-15 18:01:28,284 INFO  [Log] Click on Product Basket 
+2021-01-15 18:01:28,284 INFO  [Log] Clicking object - productBasketLink 
+2021-01-15 18:01:35,571 INFO  [Log] Waiting until page loads completely.. 
+2021-01-15 18:01:36,609 INFO  [Log] Checking Element Exists - Mybasketitemdescription 
+2021-01-15 18:01:36,628 INFO  [Log] Verifying partial text - Mybasketitemdescription 
+2021-01-15 18:01:36,705 INFO  [Log] Closing browser after running the Scenario.. 
+2021-01-15 18:01:36,705 INFO  [Log] **************************************************************************************** 
+2021-01-15 18:01:36,705 INFO  [Log] **                    END SCENARIO EXECUTION Verify that a product searched and added to the basket is available in the basket              ** 
+2021-01-15 18:01:36,705 INFO  [Log] **************************************************************************************** 
+2021-01-15 18:06:37,668 INFO  [Log] **************************************************************************************** 
+2021-01-15 18:06:37,669 INFO  [Log] **                    START SCENARIO EXECUTION Verify that a product searched and added to the basket is available in the basket** 
+2021-01-15 18:06:37,669 INFO  [Log] **************************************************************************************** 
+2021-01-15 18:06:37,669 INFO  [Log] initialising properties.. 
+2021-01-15 18:06:37,669 INFO  [Log] Properties initialised! 
+2021-01-15 18:06:37,674 INFO  [Log] opening browser.. 
+2021-01-15 18:06:37,674 INFO  [Log] Chrome.. 
+2021-01-15 18:06:45,562 INFO  [Log] Navigating to..https://uk.rs-online.com/web/ 
+2021-01-15 18:06:47,799 INFO  [Log] Clicking object - banner 
+2021-01-15 18:06:51,507 INFO  [Log] Get to RS-uk Page & confirm sign in link is located.. 
+2021-01-15 18:06:51,507 INFO  [Log] Checking Element Exists - RS-uk_logo_link 
+2021-01-15 18:06:52,659 INFO  [Log] User is on the RS-uk webpage 
+2021-01-15 18:06:52,660 INFO  [Log] Check if the Search box is loaded 
+2021-01-15 18:06:52,660 INFO  [Log] Waiting Until Element Is Visible - //*[@id='searchTerm'] 
+2021-01-15 18:06:52,780 INFO  [Log] Enter Product in Search box and click Search 
+2021-01-15 18:06:52,780 INFO  [Log] Entering data - solar panel into + searchTextBox 
+2021-01-15 18:06:53,039 INFO  [Log] Clicking object - searchButton 
+2021-01-15 18:07:00,746 INFO  [Log] Waiting until page loads completely.. 
+2021-01-15 18:07:01,788 INFO  [Log] Checking Element Exists - firstProductaddToBasketButton 
+2021-01-15 18:07:01,807 INFO  [Log] Adding the first Product from search results to the product basket 
+2021-01-15 18:07:01,807 INFO  [Log] Clicking object - firstProductaddToBasketButton 
+2021-01-15 18:07:07,076 INFO  [Log] Waiting until page loads completely.. 
+2021-01-15 18:07:08,096 INFO  [Log] Window Scroll up so that view the basket link is visible 
+2021-01-15 18:07:08,138 INFO  [Log] Waiting Until Element Is Visible - //*[@class='icon-cart'] 
+2021-01-15 18:07:08,269 INFO  [Log] Click on Product Basket 
+2021-01-15 18:07:08,269 INFO  [Log] Clicking object - productBasketLink 
+2021-01-15 18:07:15,559 INFO  [Log] Waiting until page loads completely.. 
+2021-01-15 18:07:16,623 INFO  [Log] Checking Element Exists - Mybasketitemdescription 
+2021-01-15 18:07:16,643 INFO  [Log] Verifying partial text - Mybasketitemdescription 
+2021-01-15 18:07:16,721 INFO  [Log] Closing browser after running the Scenario.. 
+2021-01-15 18:07:16,721 INFO  [Log] **************************************************************************************** 
+2021-01-15 18:07:16,721 INFO  [Log] **                    END SCENARIO EXECUTION Verify that a product searched and added to the basket is available in the basket              ** 
+2021-01-15 18:07:16,722 INFO  [Log] **************************************************************************************** 
+2021-01-15 18:08:37,331 INFO  [Log] **************************************************************************************** 
+2021-01-15 18:08:37,332 INFO  [Log] **                    START SCENARIO EXECUTION Verify that a product searched and added to the basket is available in the basket** 
+2021-01-15 18:08:37,332 INFO  [Log] **************************************************************************************** 
+2021-01-15 18:08:37,332 INFO  [Log] initialising properties.. 
+2021-01-15 18:08:37,332 INFO  [Log] Properties initialised! 
+2021-01-15 18:08:37,336 INFO  [Log] opening browser.. 
+2021-01-15 18:08:37,336 INFO  [Log] Chrome.. 
+2021-01-15 18:08:44,888 INFO  [Log] Navigating to..https://uk.rs-online.com/web/ 
+2021-01-15 18:08:47,458 INFO  [Log] Clicking object - banner 
+2021-01-15 18:08:50,513 INFO  [Log] Get to RS-uk Page & confirm sign in link is located.. 
+2021-01-15 18:08:50,513 INFO  [Log] Checking Element Exists - RS-uk_logo_link 
+2021-01-15 18:08:50,591 INFO  [Log] User is on the RS-uk webpage 
+2021-01-15 18:08:50,592 INFO  [Log] Check if the Search box is loaded 
+2021-01-15 18:08:50,592 INFO  [Log] Waiting Until Element Is Visible - //*[@id='searchTerm'] 
+2021-01-15 18:08:51,847 INFO  [Log] Enter Product in Search box and click Search 
+2021-01-15 18:08:51,847 INFO  [Log] Entering data - Solar Panel into + searchTextBox 
+2021-01-15 18:08:52,092 INFO  [Log] Clicking object - searchButton 
+2021-01-15 18:08:57,446 INFO  [Log] Waiting until page loads completely.. 
+2021-01-15 18:08:58,518 INFO  [Log] Checking Element Exists - firstProductaddToBasketButton 
+2021-01-15 18:08:58,536 INFO  [Log] Adding the first Product from search results to the product basket 
+2021-01-15 18:08:58,537 INFO  [Log] Clicking object - firstProductaddToBasketButton 
+2021-01-15 18:09:03,868 INFO  [Log] Waiting until page loads completely.. 
+2021-01-15 18:09:04,887 INFO  [Log] Window Scroll up so that view the basket link is visible 
+2021-01-15 18:09:04,924 INFO  [Log] Waiting Until Element Is Visible - //*[@class='icon-cart'] 
+2021-01-15 18:09:05,114 INFO  [Log] Click on Product Basket 
+2021-01-15 18:09:05,114 INFO  [Log] Clicking object - productBasketLink 
+2021-01-15 18:09:11,998 INFO  [Log] Waiting until page loads completely.. 
+2021-01-15 18:09:13,063 INFO  [Log] Checking Element Exists - Mybasketitemdescription 
+2021-01-15 18:09:13,080 INFO  [Log] Verifying partial text - Mybasketitemdescription 
+2021-01-15 18:09:13,159 ERROR [Log] AssertionError - My basket  does not contain the added item 
+2021-01-15 18:09:13,160 INFO  [Log] Closing browser after running the Scenario.. 
+2021-01-15 18:09:13,160 INFO  [Log] **************************************************************************************** 
+2021-01-15 18:09:13,160 INFO  [Log] **                    END SCENARIO EXECUTION Verify that a product searched and added to the basket is available in the basket              ** 
+2021-01-15 18:09:13,160 INFO  [Log] **************************************************************************************** 
+2021-01-15 18:14:28,107 INFO  [Log] **************************************************************************************** 
+2021-01-15 18:14:28,107 INFO  [Log] **                    START SCENARIO EXECUTION Verify that a product searched and added to the basket is available in the basket** 
+2021-01-15 18:14:28,107 INFO  [Log] **************************************************************************************** 
+2021-01-15 18:14:28,107 INFO  [Log] initialising properties.. 
+2021-01-15 18:14:28,107 INFO  [Log] Properties initialised! 
+2021-01-15 18:14:28,107 INFO  [Log] opening browser.. 
+2021-01-15 18:14:28,107 INFO  [Log] Chrome.. 
+2021-01-15 18:14:35,381 INFO  [Log] Navigating to..https://uk.rs-online.com/web/ 
+2021-01-15 18:14:39,221 INFO  [Log] Clicking object - banner 
+2021-01-15 18:14:42,643 INFO  [Log] Get to RS-uk Page & confirm sign in link is located.. 
+2021-01-15 18:14:42,643 INFO  [Log] Checking Element Exists - RS-uk_logo_link 
+2021-01-15 18:14:42,730 INFO  [Log] User is on the RS-uk webpage 
+2021-01-15 18:14:42,730 INFO  [Log] Check if the Search box is loaded 
+2021-01-15 18:14:42,730 INFO  [Log] Waiting Until Element Is Visible - //*[@id='searchTerm'] 
+2021-01-15 18:14:42,864 INFO  [Log] Enter Product in Search box and click Search 
+2021-01-15 18:14:42,865 INFO  [Log] Entering data - Solar Panel into + searchTextBox 
+2021-01-15 18:14:43,204 INFO  [Log] Clicking object - searchButton 
+2021-01-15 18:14:50,914 INFO  [Log] Waiting until page loads completely.. 
+2021-01-15 18:14:51,976 INFO  [Log] Checking Element Exists - firstProductaddToBasketButton 
+2021-01-15 18:14:52,008 INFO  [Log] Adding the first Product from search results to the product basket 
+2021-01-15 18:14:52,008 INFO  [Log] Clicking object - firstProductaddToBasketButton 
+2021-01-15 18:14:57,258 INFO  [Log] Waiting until page loads completely.. 
+2021-01-15 18:14:58,291 INFO  [Log] Window Scroll up so that view the basket link is visible 
+2021-01-15 18:14:58,358 INFO  [Log] Waiting Until Element Is Visible - //*[@class='icon-cart'] 
+2021-01-15 18:14:58,543 INFO  [Log] Click on Product Basket 
+2021-01-15 18:14:58,544 INFO  [Log] Clicking object - productBasketLink 
+2021-01-15 18:15:05,483 INFO  [Log] Waiting until page loads completely.. 
+2021-01-15 18:15:06,548 INFO  [Log] Checking Element Exists - Mybasketitemdescription 
+2021-01-15 18:15:06,568 INFO  [Log] Verifying partial text - Mybasketitemdescription 
+2021-01-15 18:15:06,646 INFO  [Log] Closing browser after running the Scenario.. 
+2021-01-15 18:15:06,646 INFO  [Log] **************************************************************************************** 
+2021-01-15 18:15:06,646 INFO  [Log] **                    END SCENARIO EXECUTION Verify that a product searched and added to the basket is available in the basket              ** 
+2021-01-15 18:15:06,646 INFO  [Log] **************************************************************************************** 
+2021-01-15 18:34:17,391 INFO  [Log] **************************************************************************************** 
+2021-01-15 18:34:17,392 INFO  [Log] **                    START SCENARIO EXECUTION Verify that a product searched and added to the basket is available in the basket** 
+2021-01-15 18:34:17,392 INFO  [Log] **************************************************************************************** 
+2021-01-15 18:34:17,392 INFO  [Log] initialising properties.. 
+2021-01-15 18:34:17,392 INFO  [Log] Properties initialised! 
+2021-01-15 18:34:17,396 INFO  [Log] opening browser.. 
+2021-01-15 18:34:17,396 INFO  [Log] Chrome.. 
+2021-01-15 18:34:24,861 INFO  [Log] Navigating to..https://uk.rs-online.com/web/ 
+2021-01-15 18:34:27,005 INFO  [Log] Clicking object - banner 
+2021-01-15 18:34:29,402 INFO  [Log] Get to RS-uk Page & confirm sign in link is located.. 
+2021-01-15 18:34:29,403 INFO  [Log] Checking Element Exists - RS-uk_logo_link 
+2021-01-15 18:34:29,454 INFO  [Log] User is on the RS-uk webpage 
+2021-01-15 18:34:29,455 INFO  [Log] Check if the Search box is loaded 
+2021-01-15 18:34:29,456 INFO  [Log] Waiting Until Element Is Visible - //*[@id='searchTerm'] 
+2021-01-15 18:34:31,408 INFO  [Log] Enter Product in Search box and click Search 
+2021-01-15 18:34:31,408 INFO  [Log] Entering data - Solar Panel into + searchTextBox 
+2021-01-15 18:34:31,626 INFO  [Log] Clicking object - searchButton 
+2021-01-15 18:34:37,002 INFO  [Log] Waiting until page loads completely.. 
+2021-01-15 18:34:38,048 INFO  [Log] Checking Element Exists - firstProductaddToBasketButton 
+2021-01-15 18:34:38,068 INFO  [Log] Adding the first Product from search results to the product basket 
+2021-01-15 18:34:38,068 INFO  [Log] Clicking object - firstProductaddToBasketButton 
+2021-01-15 18:34:43,351 INFO  [Log] Waiting until page loads completely.. 
+2021-01-15 18:34:44,447 INFO  [Log] Window Scroll up so that view the basket link is visible 
+2021-01-15 18:34:44,474 INFO  [Log] Waiting Until Element Is Visible - //*[@class='icon-cart'] 
+2021-01-15 18:34:44,605 INFO  [Log] Click on Product Basket 
+2021-01-15 18:34:44,605 INFO  [Log] Clicking object - productBasketLink 
+2021-01-15 18:34:51,647 INFO  [Log] Waiting until page loads completely.. 
+2021-01-15 18:34:52,722 INFO  [Log] Checking Element Exists - Mybasketitemdescription 
+2021-01-15 18:34:52,744 INFO  [Log] Verifying partial text - Mybasketitemdescription 
+2021-01-15 18:34:52,867 INFO  [Log] Closing browser after running the Scenario.. 
+2021-01-15 18:34:52,867 INFO  [Log] **************************************************************************************** 
+2021-01-15 18:34:52,867 INFO  [Log] **                    END SCENARIO EXECUTION Verify that a product searched and added to the basket is available in the basket              ** 
+2021-01-15 18:34:52,867 INFO  [Log] **************************************************************************************** 
+2021-01-15 18:37:12,405 INFO  [Log] **************************************************************************************** 
+2021-01-15 18:37:12,405 INFO  [Log] **                    START SCENARIO EXECUTION Verify that a product searched and added to the basket is available in the basket** 
+2021-01-15 18:37:12,405 INFO  [Log] **************************************************************************************** 
+2021-01-15 18:37:12,405 INFO  [Log] initialising properties.. 
+2021-01-15 18:37:12,405 INFO  [Log] Properties initialised! 
+2021-01-15 18:37:12,405 INFO  [Log] opening browser.. 
+2021-01-15 18:37:12,405 INFO  [Log] Chrome.. 
+2021-01-15 18:37:19,701 INFO  [Log] Navigating to..https://uk.rs-online.com/web/ 
+2021-01-15 18:37:21,263 INFO  [Log] Clicking object - banner 
+2021-01-15 18:37:24,904 INFO  [Log] Get to RS-uk Page & confirm sign in link is located.. 
+2021-01-15 18:37:24,904 INFO  [Log] Checking Element Exists - RS-uk_logo_link 
+2021-01-15 18:37:24,944 INFO  [Log] User is on the RS-uk webpage 
+2021-01-15 18:37:24,944 INFO  [Log] Check if the Search box is loaded 
+2021-01-15 18:37:24,944 INFO  [Log] Waiting Until Element Is Visible - //*[@id='searchTerm'] 
+2021-01-15 18:37:25,064 INFO  [Log] Enter Product in Search box and click Search 
+2021-01-15 18:37:25,064 INFO  [Log] Entering data - Solar Panel into + searchTextBox 
+2021-01-15 18:37:26,276 INFO  [Log] Clicking object - searchButton 
+2021-01-15 18:37:29,431 INFO  [Log] Waiting until page loads completely.. 
+2021-01-15 18:37:30,937 INFO  [Log] Checking Element Exists - firstProductaddToBasketButton 
+2021-01-15 18:37:31,018 INFO  [Log] Adding the first Product from search results to the product basket 
+2021-01-15 18:37:31,018 INFO  [Log] Clicking object - firstProductaddToBasketButton 
+2021-01-15 18:37:34,304 INFO  [Log] Waiting until page loads completely.. 
+2021-01-15 18:37:35,324 INFO  [Log] Window Scroll up so that view the basket link is visible 
+2021-01-15 18:37:35,387 INFO  [Log] Waiting Until Element Is Visible - //*[@class='icon-cart'] 
+2021-01-15 18:37:35,644 INFO  [Log] Click on Product Basket 
+2021-01-15 18:37:35,645 INFO  [Log] Clicking object - productBasketLink 
+2021-01-15 18:37:40,597 INFO  [Log] Waiting until page loads completely.. 
+2021-01-15 18:37:41,659 INFO  [Log] Checking Element Exists - Mybasketitemdescription 
+2021-01-15 18:37:41,687 INFO  [Log] Verifying partial text - Mybasketitemdescription 
+2021-01-15 18:37:41,798 INFO  [Log] Closing browser after running the Scenario.. 
+2021-01-15 18:37:41,798 INFO  [Log] **************************************************************************************** 
+2021-01-15 18:37:41,798 INFO  [Log] **                    END SCENARIO EXECUTION Verify that a product searched and added to the basket is available in the basket              ** 
+2021-01-15 18:37:41,798 INFO  [Log] **************************************************************************************** 
+2021-01-15 18:38:33,883 INFO  [Log] **************************************************************************************** 
+2021-01-15 18:38:33,884 INFO  [Log] **                    START SCENARIO EXECUTION Verify that a product searched and added to the basket is available in the basket** 
+2021-01-15 18:38:33,885 INFO  [Log] **************************************************************************************** 
+2021-01-15 18:38:33,885 INFO  [Log] initialising properties.. 
+2021-01-15 18:38:33,885 INFO  [Log] Properties initialised! 
+2021-01-15 18:38:33,890 INFO  [Log] opening browser.. 
+2021-01-15 18:38:33,890 INFO  [Log] Chrome.. 
+2021-01-15 18:38:41,113 INFO  [Log] Navigating to..https://uk.rs-online.com/web/ 
+2021-01-15 18:38:43,562 INFO  [Log] Clicking object - banner 
+2021-01-15 18:38:45,116 INFO  [Log] Get to RS-uk Page & confirm sign in link is located.. 
+2021-01-15 18:38:45,116 INFO  [Log] Checking Element Exists - RS-uk_logo_link 
+2021-01-15 18:38:45,165 INFO  [Log] User is on the RS-uk webpage 
+2021-01-15 18:38:45,165 INFO  [Log] Check if the Search box is loaded 
+2021-01-15 18:38:45,165 INFO  [Log] Waiting Until Element Is Visible - //*[@id='searchTerm'] 
+2021-01-15 18:38:45,255 INFO  [Log] Enter Product in Search box and click Search 
+2021-01-15 18:38:45,256 INFO  [Log] Entering data - Solar Panel into + searchTextBox 
+2021-01-15 18:38:46,335 INFO  [Log] Clicking object - searchButton 
+2021-01-15 18:38:50,165 INFO  [Log] Waiting until page loads completely.. 
+2021-01-15 18:38:52,245 INFO  [Log] Checking Element Exists - firstProductaddToBasketButton 
+2021-01-15 18:38:52,267 INFO  [Log] Adding the first Product from search results to the product basket 
+2021-01-15 18:38:52,267 INFO  [Log] Clicking object - firstProductaddToBasketButton 
+2021-01-15 18:38:54,561 INFO  [Log] Waiting until page loads completely.. 
+2021-01-15 18:38:55,589 INFO  [Log] Window Scroll up so that view the basket link is visible 
+2021-01-15 18:38:55,616 INFO  [Log] Waiting Until Element Is Visible - //*[@class='icon-cart'] 
+2021-01-15 18:38:55,822 INFO  [Log] Click on Product Basket 
+2021-01-15 18:38:55,822 INFO  [Log] Clicking object - productBasketLink 
+2021-01-15 18:38:59,747 INFO  [Log] Waiting until page loads completely.. 
+2021-01-15 18:39:00,810 INFO  [Log] Checking Element Exists - Mybasketitemdescription 
+2021-01-15 18:39:00,839 INFO  [Log] Verifying partial text - Mybasketitemdescription 
+2021-01-15 18:39:00,993 INFO  [Log] Closing browser after running the Scenario.. 
+2021-01-15 18:39:00,993 INFO  [Log] **************************************************************************************** 
+2021-01-15 18:39:00,993 INFO  [Log] **                    END SCENARIO EXECUTION Verify that a product searched and added to the basket is available in the basket              ** 
+2021-01-15 18:39:00,993 INFO  [Log] **************************************************************************************** 
+2021-01-15 18:40:30,871 INFO  [Log] **************************************************************************************** 
+2021-01-15 18:40:30,871 INFO  [Log] **                    START SCENARIO EXECUTION Verify that a product searched and added to the basket is available in the basket** 
+2021-01-15 18:40:30,871 INFO  [Log] **************************************************************************************** 
+2021-01-15 18:40:30,871 INFO  [Log] initialising properties.. 
+2021-01-15 18:40:30,871 INFO  [Log] Properties initialised! 
+2021-01-15 18:40:30,871 INFO  [Log] opening browser.. 
+2021-01-15 18:40:30,871 INFO  [Log] Chrome.. 
+2021-01-15 18:40:38,314 INFO  [Log] Navigating to..https://uk.rs-online.com/web/ 
+2021-01-15 18:40:40,655 INFO  [Log] Clicking object - banner 
+2021-01-15 18:40:42,342 INFO  [Log] Get to RS-uk Page & confirm sign in link is located.. 
+2021-01-15 18:40:42,342 INFO  [Log] Checking Element Exists - RS-uk_logo_link 
+2021-01-15 18:40:42,374 INFO  [Log] User is on the RS-uk webpage 
+2021-01-15 18:40:42,374 INFO  [Log] Check if the Search box is loaded 
+2021-01-15 18:40:42,374 INFO  [Log] Waiting Until Element Is Visible - //*[@id='searchTerm'] 
+2021-01-15 18:40:42,468 INFO  [Log] Enter Product in Search box and click Search 
+2021-01-15 18:40:42,468 INFO  [Log] Entering data - Solar Panel into + searchTextBox 
+2021-01-15 18:40:42,719 INFO  [Log] Clicking object - searchButton 
+2021-01-15 18:40:44,067 INFO  [Log] Waiting until page loads completely.. 
+2021-01-15 18:40:47,885 INFO  [Log] Checking Element Exists - firstProductaddToBasketButton 
+2021-01-15 18:40:47,959 INFO  [Log] Adding the first Product from search results to the product basket 
+2021-01-15 18:40:47,959 INFO  [Log] Clicking object - firstProductaddToBasketButton 
+2021-01-15 18:40:49,251 INFO  [Log] Waiting until page loads completely.. 
+2021-01-15 18:40:50,331 INFO  [Log] Window Scroll up so that view the basket link is visible 
+2021-01-15 18:40:50,365 INFO  [Log] Waiting Until Element Is Visible - //*[@class='icon-cart'] 
+2021-01-15 18:40:50,546 INFO  [Log] Click on Product Basket 
+2021-01-15 18:40:50,546 INFO  [Log] Clicking object - productBasketLink 
+2021-01-15 18:40:53,652 INFO  [Log] Waiting until page loads completely.. 
+2021-01-15 18:40:55,240 INFO  [Log] Checking Element Exists - Mybasketitemdescription 
+2021-01-15 18:40:55,270 INFO  [Log] Verifying partial text - Mybasketitemdescription 
+2021-01-15 18:40:55,386 INFO  [Log] Closing browser after running the Scenario.. 
+2021-01-15 18:40:55,387 INFO  [Log] **************************************************************************************** 
+2021-01-15 18:40:55,387 INFO  [Log] **                    END SCENARIO EXECUTION Verify that a product searched and added to the basket is available in the basket              ** 
+2021-01-15 18:40:55,387 INFO  [Log] **************************************************************************************** 
+2021-01-15 18:42:05,619 INFO  [Log] **************************************************************************************** 
+2021-01-15 18:42:05,619 INFO  [Log] **                    START SCENARIO EXECUTION Verify that a product searched and added to the basket is available in the basket** 
+2021-01-15 18:42:05,619 INFO  [Log] **************************************************************************************** 
+2021-01-15 18:42:05,619 INFO  [Log] initialising properties.. 
+2021-01-15 18:42:05,619 INFO  [Log] Properties initialised! 
+2021-01-15 18:42:05,619 INFO  [Log] opening browser.. 
+2021-01-15 18:42:05,619 INFO  [Log] Chrome.. 
+2021-01-15 18:42:13,043 INFO  [Log] Navigating to..https://uk.rs-online.com/web/ 
+2021-01-15 18:42:15,947 INFO  [Log] Clicking object - banner 
+2021-01-15 18:42:19,692 INFO  [Log] Get to RS-uk Page & confirm sign in link is located.. 
+2021-01-15 18:42:19,692 INFO  [Log] Checking Element Exists - RS-uk_logo_link 
+2021-01-15 18:42:19,754 INFO  [Log] User is on the RS-uk webpage 
+2021-01-15 18:42:19,755 INFO  [Log] Check if the Search box is loaded 
+2021-01-15 18:42:19,755 INFO  [Log] Waiting Until Element Is Visible - //*[@id='searchTerm'] 
+2021-01-15 18:42:19,890 INFO  [Log] Enter Product in Search box and click Search 
+2021-01-15 18:42:19,890 INFO  [Log] Entering data - Solar Panel into + searchTextBox 
+2021-01-15 18:42:20,241 INFO  [Log] Clicking object - searchButton 
+2021-01-15 18:42:26,182 INFO  [Log] Waiting until page loads completely.. 
+2021-01-15 18:42:27,340 INFO  [Log] Checking Element Exists - firstProductaddToBasketButton 
+2021-01-15 18:42:27,368 INFO  [Log] Adding the first Product from search results to the product basket 
+2021-01-15 18:42:27,368 INFO  [Log] Clicking object - firstProductaddToBasketButton 
+2021-01-15 18:42:28,709 INFO  [Log] Waiting until page loads completely.. 
+2021-01-15 18:42:29,720 INFO  [Log] Window Scroll up so that view the basket link is visible 
+2021-01-15 18:42:29,750 INFO  [Log] Waiting Until Element Is Visible - //*[@class='icon-cart'] 
+2021-01-15 18:42:29,970 INFO  [Log] Click on Product Basket 
+2021-01-15 18:42:29,971 INFO  [Log] Clicking object - productBasketLink 
+2021-01-15 18:42:33,673 INFO  [Log] Waiting until page loads completely.. 
+2021-01-15 18:42:34,746 INFO  [Log] Checking Element Exists - Mybasketitemdescription 
+2021-01-15 18:42:34,765 INFO  [Log] Verifying partial text - Mybasketitemdescription 
+2021-01-15 18:42:34,845 INFO  [Log] Closing browser after running the Scenario.. 
+2021-01-15 18:42:34,845 INFO  [Log] **************************************************************************************** 
+2021-01-15 18:42:34,845 INFO  [Log] **                    END SCENARIO EXECUTION Verify that a product searched and added to the basket is available in the basket              ** 
+2021-01-15 18:42:34,845 INFO  [Log] **************************************************************************************** 
+2021-01-15 18:43:20,194 INFO  [Log] **************************************************************************************** 
+2021-01-15 18:43:20,195 INFO  [Log] **                    START SCENARIO EXECUTION Verify that a product searched and added to the basket is available in the basket** 
+2021-01-15 18:43:20,195 INFO  [Log] **************************************************************************************** 
+2021-01-15 18:43:20,195 INFO  [Log] initialising properties.. 
+2021-01-15 18:43:20,195 INFO  [Log] Properties initialised! 
+2021-01-15 18:43:20,199 INFO  [Log] opening browser.. 
+2021-01-15 18:43:20,199 INFO  [Log] Chrome.. 
+2021-01-15 18:43:27,490 INFO  [Log] Navigating to..https://uk.rs-online.com/web/ 
+2021-01-15 18:43:29,082 INFO  [Log] Clicking object - banner 
+2021-01-15 18:43:31,138 INFO  [Log] Get to RS-uk Page & confirm sign in link is located.. 
+2021-01-15 18:43:31,138 INFO  [Log] Checking Element Exists - RS-uk_logo_link 
+2021-01-15 18:43:31,182 INFO  [Log] User is on the RS-uk webpage 
+2021-01-15 18:43:31,182 INFO  [Log] Check if the Search box is loaded 
+2021-01-15 18:43:31,182 INFO  [Log] Waiting Until Element Is Visible - //*[@id='searchTerm'] 
+2021-01-15 18:43:33,012 INFO  [Log] Enter Product in Search box and click Search 
+2021-01-15 18:43:33,012 INFO  [Log] Entering data - Motor into + searchTextBox 
+2021-01-15 18:43:33,296 INFO  [Log] Clicking object - searchButton 
+2021-01-15 18:43:37,091 INFO  [Log] Waiting until page loads completely.. 
+2021-01-15 18:43:38,256 INFO  [Log] Checking Element Exists - firstProductaddToBasketButton 
+2021-01-15 18:43:38,277 INFO  [Log] Adding the first Product from search results to the product basket 
+2021-01-15 18:43:38,277 INFO  [Log] Clicking object - firstProductaddToBasketButton 
+2021-01-15 18:43:39,553 INFO  [Log] Waiting until page loads completely.. 
+2021-01-15 18:43:40,773 INFO  [Log] Window Scroll up so that view the basket link is visible 
+2021-01-15 18:43:40,811 INFO  [Log] Waiting Until Element Is Visible - //*[@class='icon-cart'] 
+2021-01-15 18:43:41,070 INFO  [Log] Click on Product Basket 
+2021-01-15 18:43:41,071 INFO  [Log] Clicking object - productBasketLink 
+2021-01-15 18:43:44,813 INFO  [Log] Waiting until page loads completely.. 
+2021-01-15 18:43:46,042 INFO  [Log] Checking Element Exists - Mybasketitemdescription 
+2021-01-15 18:43:46,072 INFO  [Log] Verifying partial text - Mybasketitemdescription 
+2021-01-15 18:43:46,205 INFO  [Log] Closing browser after running the Scenario.. 
+2021-01-15 18:43:46,206 INFO  [Log] **************************************************************************************** 
+2021-01-15 18:43:46,206 INFO  [Log] **                    END SCENARIO EXECUTION Verify that a product searched and added to the basket is available in the basket              ** 
+2021-01-15 18:43:46,206 INFO  [Log] **************************************************************************************** 
+2021-01-15 18:51:48,158 INFO  [Log] **************************************************************************************** 
+2021-01-15 18:51:48,159 INFO  [Log] **                    START SCENARIO EXECUTION Verify that a product searched and added to the basket is available in the basket** 
+2021-01-15 18:51:48,159 INFO  [Log] **************************************************************************************** 
+2021-01-15 18:51:48,159 INFO  [Log] initialising properties.. 
+2021-01-15 18:51:48,159 INFO  [Log] Properties initialised! 
+2021-01-15 18:51:48,165 INFO  [Log] opening browser.. 
+2021-01-15 18:51:48,165 INFO  [Log] Chrome.. 
+2021-01-15 18:51:55,669 INFO  [Log] Navigating to..https://uk.rs-online.com/web/ 
+2021-01-15 18:51:58,320 INFO  [Log] Clicking object - banner 
+2021-01-15 18:51:59,584 INFO  [Log] Get to RS-uk Page & confirm sign in link is located.. 
+2021-01-15 18:51:59,584 INFO  [Log] Checking Element Exists - RS-uk_logo_link 
+2021-01-15 18:51:59,629 INFO  [Log] User is on the RS-uk webpage 
+2021-01-15 18:51:59,630 INFO  [Log] Check if the Search box is loaded 
+2021-01-15 18:51:59,630 INFO  [Log] Waiting Until Element Is Visible - //*[@id='searchTerm'] 
+2021-01-15 18:52:00,888 INFO  [Log] Enter Product in Search box and click Search 
+2021-01-15 18:52:00,888 INFO  [Log] Entering data - Motor into + searchTextBox 
+2021-01-15 18:52:01,290 INFO  [Log] Clicking object - searchButton 
+2021-01-15 18:52:03,896 INFO  [Log] Waiting until page loads completely.. 
+2021-01-15 18:52:06,758 INFO  [Log] Checking Element Exists - firstProductaddToBasketButton 
+2021-01-15 18:52:06,790 INFO  [Log] Adding the first Product from search results to the product basket 
+2021-01-15 18:52:06,790 INFO  [Log] Clicking object - firstProductaddToBasketButton 
+2021-01-15 18:52:08,183 INFO  [Log] Waiting until page loads completely.. 
+2021-01-15 18:52:09,355 INFO  [Log] Window Scroll up so that view the basket link is visible 
+2021-01-15 18:52:09,390 INFO  [Log] Waiting Until Element Is Visible - //*[@class='icon-cart'] 
+2021-01-15 18:52:09,579 INFO  [Log] Click on Product Basket 
+2021-01-15 18:52:09,579 INFO  [Log] Clicking object - productBasketLink 
+2021-01-15 18:52:13,271 INFO  [Log] Waiting until page loads completely.. 
+2021-01-15 18:52:14,308 INFO  [Log] Checking Element Exists - Mybasketitemdescription 
+2021-01-15 18:52:14,375 INFO  [Log] Verifying partial text - Mybasketitemdescription 
+2021-01-15 18:52:14,525 INFO  [Log] Verified that Added Item is present in the  My Basket 
+2021-01-15 18:52:14,525 INFO  [Log] Closing browser after running the Scenario.. 
+2021-01-15 18:52:14,525 INFO  [Log] **************************************************************************************** 
+2021-01-15 18:52:14,525 INFO  [Log] **                    END SCENARIO EXECUTION Verify that a product searched and added to the basket is available in the basket              ** 
+2021-01-15 18:52:14,525 INFO  [Log] **************************************************************************************** 
+2021-01-15 18:55:36,196 INFO  [Log] **************************************************************************************** 
+2021-01-15 18:55:36,197 INFO  [Log] **                    START SCENARIO EXECUTION Verify that a product searched and added to the basket is available in the basket** 
+2021-01-15 18:55:36,197 INFO  [Log] **************************************************************************************** 
+2021-01-15 18:55:36,197 INFO  [Log] initialising properties.. 
+2021-01-15 18:55:36,197 INFO  [Log] Properties initialised! 
+2021-01-15 18:55:36,202 INFO  [Log] opening browser.. 
+2021-01-15 18:55:36,202 INFO  [Log] Chrome.. 
+2021-01-15 18:55:43,570 INFO  [Log] Navigating to..https://uk.rs-online.com/web/ 
+2021-01-15 18:55:46,061 INFO  [Log] Clicking object - banner 
+2021-01-15 18:55:47,442 INFO  [Log] Get to RS-uk Page & confirm sign in link is located.. 
+2021-01-15 18:55:47,442 INFO  [Log] Checking Element Exists - RS-uk_logo_link 
+2021-01-15 18:55:47,499 INFO  [Log] User is on the RS-uk webpage 
+2021-01-15 18:55:47,500 INFO  [Log] Check if the Search box is loaded 
+2021-01-15 18:55:47,500 INFO  [Log] Waiting Until Element Is Visible - //*[@id='searchTerm'] 
+2021-01-15 18:55:47,609 INFO  [Log] Enter Product in Search box and click Search 
+2021-01-15 18:55:47,609 INFO  [Log] Entering data - Motor into + searchTextBox 
+2021-01-15 18:55:47,869 INFO  [Log] Clicking object - searchButton 
+2021-01-15 18:55:52,567 INFO  [Log] Waiting until page loads completely.. 
+2021-01-15 18:55:55,344 INFO  [Log] Checking Element Exists - firstProductaddToBasketButton 
+2021-01-15 18:55:55,385 INFO  [Log] Adding the first Product from search results to the product basket 
+2021-01-15 18:55:55,385 INFO  [Log] Clicking object - firstProductaddToBasketButton 
+2021-01-15 18:55:57,760 INFO  [Log] Waiting until page loads completely.. 
+2021-01-15 18:55:58,781 INFO  [Log] Window Scroll up so that view the basket link is visible 
+2021-01-15 18:55:58,815 INFO  [Log] Waiting Until Element Is Visible - //*[@class='icon-cart'] 
+2021-01-15 18:55:59,104 INFO  [Log] Click on Product Basket 
+2021-01-15 18:55:59,104 INFO  [Log] Clicking object - productBasketLink 
+2021-01-15 18:56:03,261 INFO  [Log] Waiting until page loads completely.. 
+2021-01-15 18:56:04,341 INFO  [Log] Checking Element Exists - Mybasketitemdescription 
+2021-01-15 18:56:04,372 INFO  [Log] Verifying partial text - Mybasketitemdescription 
+2021-01-15 18:56:04,489 INFO  [Log] Verified that Added Item is present in the  My Basket 
+2021-01-15 18:56:04,489 INFO  [Log] Closing browser after running the Scenario.. 
+2021-01-15 18:56:04,489 INFO  [Log] **************************************************************************************** 
+2021-01-15 18:56:04,489 INFO  [Log] **                    END SCENARIO EXECUTION Verify that a product searched and added to the basket is available in the basket              ** 
+2021-01-15 18:56:04,489 INFO  [Log] **************************************************************************************** 

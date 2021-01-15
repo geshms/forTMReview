@@ -36,6 +36,6 @@ public class GenericSteps extends BaseUtil {
 	public void I_click(String object) throws InterruptedException {
 		base.log.info("* And user clicks..");
 		base.keyword.click(object);
-		base.keyword.sleep(5);
+		base.keyword.sleep(Integer.parseInt( base.property.getProperty("waitTime")));
 	}
 }
